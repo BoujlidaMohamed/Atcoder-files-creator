@@ -8,7 +8,7 @@ for NAME in $NAMES
   do
     touch "$COMP/$NAME.py"
     #create code template, use \n for new line
-    echo "n=int(input())\nl=[*map(int,input().split())]">>"$COMP/$NAME.py"
+    echo -e "n=int(input())\nl=[*map(int,input().split())]\n">>"$COMP/$NAME.py"
 done
  
  
