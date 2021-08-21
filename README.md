@@ -7,7 +7,7 @@ it will create a folder with the competition name and with python files for each
 
 If you want to change the problem numbers/names change the variable called ```NAMES```.
 
-To change the template just change the  part of the code ```echo "n=int(input())\nl=[*map(int,input().split())]">>"$COMP/$NAME.py"``` ; ``` "n=int(input())\nl=[*map(int,input().split())]"``` to whatever code you want to have as template use the ```\n``` for newline
+To change the template just change the  part of the code ```echo -e "n=int(input())\nl=[*map(int,input().split())]\n">>"$COMP/$NAME.py"``` ; ``` "n=int(input())\nl=[*map(int,input().split())]"``` to whatever code you want to have as template use the ```\n``` for newline
 
 If you to crate c++ files just change ```$COMP/$NAME.py``` in line 9 and 11 to ```$COMP/$NAME.cpp```
 same goes for other programming languages
